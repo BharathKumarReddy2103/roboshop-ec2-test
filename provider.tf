@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    # bucket = "bharath-remote-state"
+    bucket = "bharath-remote-state"
     key    = "ec2-module-test"
     region = "us-east-1"
     encrypt        = true
