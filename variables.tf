@@ -11,7 +11,7 @@ variable "tags" {
 }
 
 variable "instance_type" {
-    default = "t3.large"
+    default = "t3.small"
 }
 
 variable "subnet_id" {
